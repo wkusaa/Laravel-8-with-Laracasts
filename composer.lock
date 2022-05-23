@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c61ff82cbf0142a401a48a8161e1595a",
+    "content-hash": "016a9e60ca4722910a1739b102c0b83c",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5184,6 +5184,43 @@
                 "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/2.2.4"
             },
             "time": "2021-12-08T09:12:39+00:00"
+        },
+        {
+            "name": "tmd/auto-git-pull",
+            "version": "1.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/antriver/auto-git-pull.git",
+                "reference": "4b33b4df2c227ac200ccbc48703f30fa62b844b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/antriver/auto-git-pull/zipball/4b33b4df2c227ac200ccbc48703f30fa62b844b0",
+                "reference": "4b33b4df2c227ac200ccbc48703f30fa62b844b0",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tmd\\AutoGitPull\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anthony Kuske",
+                    "homepage": "http://www.anthonykuske.com"
+                }
+            ],
+            "description": "Automatically pulls a git repository when commits are pushed.",
+            "support": {
+                "issues": "https://github.com/antriver/auto-git-pull/issues",
+                "source": "https://github.com/antriver/auto-git-pull/tree/master"
+            },
+            "time": "2015-09-10T00:35:31+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
